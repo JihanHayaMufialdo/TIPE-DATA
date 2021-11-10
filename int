@@ -1,1 +1,28 @@
+Tipe data integer adalah tipe data yang dipakai untuk menampung angka bulat positif maupun negatif, seperti: 1, 45, dan -1945.
 
+Di dalam bahasa C++, terdapat beberapa sub-tipe integer yang dibedakan berdasarkan jangkauan angka yang bisa ditampung. Setidaknya terdapat 4 tipe data integer di dalam bahasa C++:
+- char
+- short
+- int
+- long
+
+Perbedaan dari keempat jenis tipe data diatas adalah dari segi jangkauan angka yang bisa ditampung. 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  short angka1;
+  int   angka2;
+  long  angka3;
+ 
+  angka1 = 32767;
+  angka2 = 2147483647;
+  angka3 = 2147483647;
+ 
+  cout << "Isi variabel angka1 (short): " << angka1 << endl;
+  cout << "Isi variabel angka2 (int)  : " << angka2 << endl;
+  cout << "Isi variabel angka3 (long) : " << angka3 << endl;
+ 
+  return 0;
+}
