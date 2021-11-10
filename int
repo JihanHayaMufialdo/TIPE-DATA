@@ -8,21 +8,26 @@ Di dalam bahasa C++, terdapat beberapa sub-tipe integer yang dibedakan berdasark
 
 Perbedaan dari keempat jenis tipe data diatas adalah dari segi jangkauan angka yang bisa ditampung. 
 
+//CONTOH KODE
+
 #include <iostream>
 using namespace std;
 int main()
 {
-  short angka1;
-  int   angka2;
-  long  angka3;
+  char  angka1;
+  short angka2;
+  int   angka3;
+  long  angka4;
  
-  angka1 = 32767;
-  angka2 = 2147483647;
+  angka1 = 99;
+  angka2 = 32767;
   angka3 = 2147483647;
+  angka4 = 2147483647;
  
-  cout << "Isi variabel angka1 (short): " << angka1 << endl;
-  cout << "Isi variabel angka2 (int)  : " << angka2 << endl;
-  cout << "Isi variabel angka3 (long) : " << angka3 << endl;
+  cout << "Isi variabel angka1 (char): " << angka1 << endl;
+  cout << "Isi variabel angka2 (short)  : " << angka2 << endl;
+  cout << "Isi variabel angka3 (int) : " << angka3 << endl;
+  cout << "Isi variabel angka4 (long) : " << angka4 << endl;
  
   return 0;
 }
