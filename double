@@ -1,0 +1,8 @@
+Tipe data float digunakan untuk menampung angka pecahan seperti 3.14, 62.22 atau -0.01234. 
+Sama seperti bahasa pemrograman pada umumnya, kita menggunakan tanda titik sebagai pemisah angka bulat dan pecahan, bukan tanda koma seperti yang kita pakai sehari-hari.
+
+Di dalam bahasa C, selain float juga terdapat tipe data double yang juga bisa dipakai untuk menyimpan angka pecahan. 
+Perbedaan antara float dan double terletak dari jangkauan angka serta tingkat ketelitian angka.
+                     
+Penulisan angka pecahan juga bisa menggunakan notasi ilmiah, seperti 3.12e2 atau 4E-3. 
+Tanda e atau E mewakili pangkat 10, sehingga 3.12e2 = 3.12 x 10^2 = 312. Sedangkan 4E-3 = 4 x 10^-3 = 0.004.
