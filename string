@@ -15,8 +15,12 @@ int main()
   string kampus  = "Universitas Lampung";
   string nohp    = "082345678912";
  
-  cout << jurusan << kampus << endl;
+  cout << jurusan << endl;
+  cout << kampus << endl;
   cout << nohp << endl;
  
   return 0;
 }
+
+Biasanya untuk variabel/input nomor hp atau nomor lainnya yang tidak perlu diproses,
+menggunakan tipe data string, karena tipe data int tidak dapat membaca angka 0 di depan.
