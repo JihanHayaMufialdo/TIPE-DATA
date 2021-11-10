@@ -15,7 +15,7 @@ Untuk membedakan apakah char ini berisi angka atau huruf dilakukan pada saat men
 using namespace std;
 int main()
 {
-  char foo = 65;
+  char foo = 67;
   char bar = 'Z';
  
   cout << "Isi variabel foo: " << foo << endl;
@@ -23,3 +23,7 @@ int main()
  
   return 0;
 }
+
+Ketika variabel foo diakses akan tampil huruf ‘C’. 
+Dari mana datangnya huruf ‘C’ ini? Huruf C tersebut berasal dari daftar kode karakter ASCII. 
+Di dalam daftar karakter ASCII, huruf C berada di urutan ke 67.
