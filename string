@@ -1,0 +1,19 @@
+string adalah tipe data yang menampung kumpulan karakter, seperti “aku”, “kamu” atau “ilmukomputer”. 
+Sebuah kalimat juga terhitung sebagai tipe data string seperti “Sedang belajar bahasa C++ di Unila”.
+
+Pada bahasa C++, tipe data string dibuat menggunakan keyword string. 
+Selain itu teks string ini harus berada di dalam tanda kutip dua ( ” ).
+
+//CONTOH KODE
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  string jurusan = "Ilmu Komputer";
+  string kampus = "Universitas Lampung";
+ 
+  cout << jurusan << kampus << endl;
+ 
+  return 0;
+}
