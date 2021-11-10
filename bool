@@ -1,3 +1,14 @@
 Tipe data boolean adalah tipe data yang hanya bisa diisi salah satu dari 2 nilai: true atau false. 
 Tipe data boolean banyak dipakai untuk percabangan kode program atau untuk memutuskan apa yang mesti dijalankan ketika sebuah kondisi terjadi.
 
+Pada bahasa C++, tipe data boolea dibuat menggunakan keyword bool. 
+
+Sebagai contoh, kita bisa membuat kode program untuk menentukan apakah sebuah angka genap atau ganjil berdasarkan input dari pengguna. 
+Untuk keperluan ini kita harus periksa terlebih dahulu apakah angka tersebut bisa dibagi 2 (untuk angka genap), atau tidak bisa dibagi 2 (untuk angka ganjil). 
+Tipe data boolean bisa dipakai untuk menampung kondisi seperti ini, yakni benar atau salah (true atau false).
+
+Pada boolean : - true  = 1
+               - false = 0
+               
+//CONTOH KODE
+
