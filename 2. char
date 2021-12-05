@@ -1,3 +1,5 @@
+// DEFINISI
+
 Tipe data char (character) dalam bahasa C++ digunakan untuk menampung 1 digit karakter, entah itu berupa huruf maupun angka.
 Contoh : 'A', 'z', 54, -23
 
@@ -8,6 +10,7 @@ Selain itu teks char yang berisi huruf harus berada di dalam tanda kutip satu ( 
 Tipe data char dalam bahasa C++ juga termasuk ke dalam tipe data integer.
 
 Untuk membedakan apakah char ini berisi angka atau huruf dilakukan pada saat menampilkannya (akan kita lihat dengan contoh praktek).
+
 
 //CONTOH KODE
 
