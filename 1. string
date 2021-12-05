@@ -1,9 +1,12 @@
+//DEFINISI
+
 string adalah tipe data yang menampung kumpulan karakter, seperti “aku”, “kamu” atau “ilmukomputer”. 
 Sebuah kalimat juga terhitung sebagai tipe data string seperti “Sedang belajar bahasa C++ di Unila”.
 Tipe data string juga dapat menampung data berupa angka, seperti "082345678912", namun angka tersebut tidak dapat diproses dengan operator.
 
 Pada bahasa C++, tipe data string dibuat menggunakan keyword string. 
 Selain itu teks string ini harus berada di dalam tanda kutip dua ( ” ).
+
 
 //CONTOH KODE
 
