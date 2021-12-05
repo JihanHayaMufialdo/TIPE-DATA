@@ -1,3 +1,5 @@
+//DEFINISI
+
 Tipe data boolean adalah tipe data yang hanya bisa diisi salah satu dari 2 nilai: true atau false. 
 Tipe data boolean banyak dipakai untuk percabangan kode program atau untuk memutuskan apa yang mesti dijalankan ketika sebuah kondisi terjadi.
 
@@ -9,6 +11,7 @@ Tipe data boolean bisa dipakai untuk menampung kondisi seperti ini, yakni benar 
 
 Pada boolean : - true  = 1
                - false = 0
+               
                
 //CONTOH KODE
 
